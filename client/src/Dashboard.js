@@ -41,7 +41,7 @@ export default function Dashboard({code}) {
     console.log('Something went wrong!', err);
   });
 
-  spotifyApi.searchTracks('acoustic')
+  spotifyApi.searchTracks('africa')
   .then((res) => {
     setInitialResults(res.body.tracks.items.map(track => {
       
