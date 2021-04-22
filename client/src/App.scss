@@ -1,0 +1,14 @@
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLighter: #282828;
+
+.App {
+    
+}
+
+.wrapper {
+    height: 100vh;
+    min-height: 100%;
+    background: $greyDark;
+    display: flex;
+}

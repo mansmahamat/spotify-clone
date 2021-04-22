@@ -1,0 +1,15 @@
+$greyDark: #040404;
+$greyLight: hsl(0, 0%, 7%);
+$greyLighter: #282828;
+
+.dashboard__container {
+    width: 100%;
+    background-color: $greyLight;
+
+    .dashboard {
+        height: calc(100vh - 90px);
+        background-color: $greyLight;
+        overflow: auto;
+    }
+}
+

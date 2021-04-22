@@ -1,0 +1,17 @@
+$greyLighter: #282828;
+$greyLight: #b3b3b3;
+
+.PlayerRSWP {
+    height: 90px;
+    background-color: $greyLighter!important;
+    color: #fff!important;
+    z-index: 99999;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .PlayerRSWP {
+        width: 238px;
+    }
+    }
+
+
