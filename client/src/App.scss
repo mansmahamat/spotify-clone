@@ -2,6 +2,22 @@ $greyDark: #040404;
 $greyLight: #131313;
 $greyLighter: #282828;
 
+@font-face {
+    font-family: circular-book;
+    src: url(./fonts/CircularStd-Book.otf);
+  }
+  
+  @font-face {
+    font-family: circular-bold;
+    src: url(./fonts/CircularStd-Bold.otf);
+  }
+  
+  @font-face {
+    font-family: circular-black;
+    src: url(./fonts/CircularStd-Black.otf);
+  }
+  
+
 .App {
     
 }
@@ -11,4 +27,5 @@ $greyLighter: #282828;
     min-height: 100%;
     background: $greyDark;
     display: flex;
+    font-family: circular-book;
 }

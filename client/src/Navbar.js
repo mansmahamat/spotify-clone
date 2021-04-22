@@ -4,6 +4,8 @@ import Logo from "./Logo";
 import { ReactComponent as Home } from "./assets/home.svg";
 import { ReactComponent as Search } from "./assets/search.svg";
 import { ReactComponent as Library } from "./assets/library.svg";
+import { ReactComponent as Playlist } from "./assets/playlist.svg";
+import { ReactComponent as Like } from "./assets/like.svg";
 
 export default function Navbar() {
   return (
@@ -27,17 +29,27 @@ export default function Navbar() {
       </ul>
       <div className="like">
         <ul>
-          <li>Create a playlist</li>
-          <li>Liked Title</li>
+          <li>
+            <Playlist />
+            Create a playlist
+          </li>
+          <li>
+            <Like />
+            Liked Title
+            </li>
         </ul>
       </div>
       <hr className="separation" />
       <div className="playlist">
         <ul>
           <li>Classique</li>
-          <li>Le R&B français</li>
+          <li>R&B</li>
           <li>Sport</li>
           <li>Africa</li>
+          <li>Pop</li>
+          <li>Hip-hop</li>
+          <li>Relax</li>
+          <li>Latino</li>
         </ul>
         <div className="download">
         <span>Download the application</span>
